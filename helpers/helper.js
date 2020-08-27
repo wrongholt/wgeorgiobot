@@ -13,8 +13,8 @@ const git = simpleGit();
  
 exports.gitPush = async(string) =>{
   try {
-    await git.cwd('C:\\Users\\wrongholt\\Documents\\WgeorgioBot\\tcg');
-    await git.add('C:\\Users\\wrongholt\\Documents\\WgeorgioBot\\tcg');
+
+    await git.add('./*');
     await git.commit(string);
     await git.push('origin', 'master');
   }
