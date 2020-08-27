@@ -24,7 +24,7 @@ client2.on('ready', () => {
   console.log(`Logged in as ${client2.user.tag}!`);
 });
 
-client2.login('NzM1MTk2NjEzOTQwODcxMjM5.Xxc0BA.r0aZ1GQFIIvrmoXb5QqCNTH3Gbw');
+client2.login('');
 client2.on('message', async (msg) => {
 console.log("THE MESSAGE " + msg.content);
 console.log("THE AUTHOR " + msg.author.username);
