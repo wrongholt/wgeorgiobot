@@ -1,0 +1,35 @@
+body {
+  background: #364013 !important;
+}
+
+.row {
+  padding: 1%;
+  background: #1C260D;
+}
+
+.card-body {
+  background: #FFF1E3;
+  color: black;
+}
+
+img {
+  padding: 1%;
+}
+
+.card-img-top {
+  background: #FFF1E3;
+}
+
+h1 {
+  color: #FFF1E3;
+}
+.card-title{
+  border-bottom: 2px #6593A6 solid;
+}
+.counts{
+  color: #FFF1E3;
+  background: inherit;
+}
+.modal-header{
+  background-color: #FFF1E3;
+} 
